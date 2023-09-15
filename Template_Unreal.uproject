@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "TemplateCore",
+			"Name": "GameCore",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
