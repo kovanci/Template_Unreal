@@ -273,5 +273,8 @@
 			"Name": "OpenImageDenoise",
 			"Enabled": false
 		}
+	],
+	"TargetPlatforms": [
+		"Windows"
 	]
 }
