@@ -3,10 +3,12 @@
 Lightweight Unreal Engine template project(C++) for prototyping.
 
 ### 💿 Installation
-- Put project folder in `EpicGames/UE_{Version}/Templates`
+- Put project folder in `EpicGames/UE_{Version}/Templates`.
 - Populate correct value for `UE5_DIR` in `vars.bat`.
 
 ### 🔥 Build and Open Project
+- Supports default UE Command-Line Arguments.
+
 ```
 .\build && .\editor
 ```
