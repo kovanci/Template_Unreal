@@ -1,4 +1,4 @@
-#include "GameCore.h"
+#include "TP_Chimp.h"
 #include "Modules/ModuleManager.h"
 
 #include "Log.h"
