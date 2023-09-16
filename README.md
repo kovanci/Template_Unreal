@@ -1,6 +1,6 @@
 [![](https://img.shields.io/badge/UE%20Version:-5.3-orange?logo=unrealengine)][1]
 
-Lightweight Unreal Engine template project(C++) for prototyping.
+Unreal Engine template project(C++) for prototyping. Some plugins have been deactivated.
 
 [Recommended Video][2]
 
