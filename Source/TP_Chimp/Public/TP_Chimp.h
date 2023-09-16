@@ -8,7 +8,7 @@ class FTP_Chimp : public IModuleInterface
 public:
     static inline FTP_Chimp& Get()
     {
-        return FModuleManager::LoadModuleChecked<FGameCore>("TP_Chimp");
+        return FModuleManager::LoadModuleChecked<FTP_Chimp>("TP_Chimp");
     }
 
     static inline bool IsAvailable()
