@@ -3,17 +3,17 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleInterface.h"
 
-class FGameCore : public IModuleInterface
+class FTP_Chimp : public IModuleInterface
 {
 public:
-    static inline FGameCore& Get()
+    static inline FTP_Chimp& Get()
     {
-        return FModuleManager::LoadModuleChecked<FGameCore>("GameCore");
+        return FModuleManager::LoadModuleChecked<FGameCore>("TP_Chimp");
     }
 
     static inline bool IsAvailable()
     {
-        return FModuleManager::Get().IsModuleLoaded("GameCore");
+        return FModuleManager::Get().IsModuleLoaded("TP_Chimp");
     }
 
     virtual void StartupModule() override;

@@ -1,8 +1,8 @@
 using UnrealBuildTool;
 
-public class GameCore : ModuleRules
+public class TP_Chimp : ModuleRules
 {
-    public GameCore(ReadOnlyTargetRules Target) : base(Target)
+    public TP_Chimp(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 

@@ -1,12 +1,12 @@
 using UnrealBuildTool;
 
-public class TemplateEditorTarget : TargetRules
+public class TP_ChimpEditorTarget : TargetRules
 {
-    public TemplateEditorTarget(TargetInfo Target) : base(Target)
+    public TP_ChimpEditorTarget(TargetInfo Target) : base(Target)
     {
         Type = TargetType.Editor;
         DefaultBuildSettings = BuildSettingsVersion.V4;
         IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3;
-        ExtraModuleNames.AddRange( new string[] { "GameCore" } );
+        ExtraModuleNames.AddRange( new string[] { "TP_Chimp" } );
     }
 }

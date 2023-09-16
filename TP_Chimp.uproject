@@ -1,11 +1,11 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "GameCore",
+			"Name": "TP_Chimp",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
