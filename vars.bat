@@ -3,7 +3,7 @@
 set ROOTDIR=%~dp0
 set ROOTDIR=%ROOTDIR:~0,-1%
 
-set PROJECT=Template
+set PROJECT=TP_Chimp
 set PROJECT_DIR=%ROOTDIR%
 set UPROJECT_PATH=%PROJECT_DIR%\%PROJECT%.uproject
 
