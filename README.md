@@ -1,11 +1,12 @@
 [![](https://img.shields.io/badge/UE%20Version:-5.3-orange?logo=unrealengine)][1]
 
-Lightweight Unreal Engine template project for prototyping.
+Lightweight Unreal Engine template project(C++) for prototyping.
 
-### Sourcing the Environment
-- Populate correct values for `PROJECT` and `UE5_DIR` in `vars.bat`.
+### 💿 Installation
+- Put project folder in `EpicGames/UE_{Version}/Templates`
+- Populate correct value for `UE5_DIR` in `vars.bat`.
 
-### Build And Open Editor
+### 🔥 Build and Open Project
 ```
 .\build && .\editor
 ```
