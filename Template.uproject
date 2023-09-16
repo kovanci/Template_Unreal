@@ -10,6 +10,9 @@
 			"LoadingPhase": "Default"
 		}
 	],
+	"TargetPlatforms": [
+		"Windows"
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -273,8 +276,5 @@
 			"Name": "OpenImageDenoise",
 			"Enabled": false
 		}
-	],
-	"TargetPlatforms": [
-		"Windows"
 	]
 }
