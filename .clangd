@@ -7,7 +7,6 @@ CompileFlags:
   Add:
     - "/std:c++20"
     - "/TP"
-    - "/D__INTELLISENSE__"
     - "-ferror-limit=0"
   CompilationDatabase: .vscode
 
