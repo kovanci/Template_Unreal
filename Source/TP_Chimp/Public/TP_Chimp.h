@@ -16,6 +16,11 @@ public:
         return FModuleManager::Get().IsModuleLoaded("TP_Chimp");
     }
 
+    virtual bool IsGameModule() const override
+    {
+        return true;
+    }
+
     virtual void StartupModule() override;
     virtual void ShutdownModule() override;
 };
