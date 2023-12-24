@@ -1,6 +1,6 @@
 #include "Modules/ModuleManager.h"
 
-#include "Log.h"
+#include "TP_ChimpLogChannels.h"
 
 class FTP_ChimpGameModule : public FDefaultGameModuleImpl
 {
