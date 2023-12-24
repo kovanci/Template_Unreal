@@ -7,6 +7,6 @@ public class TP_ChimpEditorTarget : TargetRules
         Type = TargetType.Editor;
         DefaultBuildSettings = BuildSettingsVersion.V4;
         IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_3;
-        ExtraModuleNames.AddRange( new string[] { "TP_Chimp" } );
+        ExtraModuleNames.AddRange( new string[] { "TP_ChimpGame" } );
     }
 }

@@ -1,13 +1,13 @@
 using UnrealBuildTool;
 
-public class TP_Chimp : ModuleRules
+public class TP_ChimpGame : ModuleRules
 {
-    public TP_Chimp(ReadOnlyTargetRules Target) : base(Target)
+    public TP_ChimpGame(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
         PublicIncludePaths.AddRange(new string[] {
-            "TP_Chimp"
+            "TP_ChimpGame"
         });
 
         PublicDependencyModuleNames.AddRange(new string[] {
@@ -23,7 +23,7 @@ public class TP_Chimp : ModuleRules
             "GameplayTags",
         });
 
-        PrivateDependencyModuleNames.AddRange(new string[] { 
+        PrivateDependencyModuleNames.AddRange(new string[] {
             "SlateCore",
             "CommonUI"
         });

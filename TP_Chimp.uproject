@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "TP_Chimp",
+			"Name": "TP_ChimpGame",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
