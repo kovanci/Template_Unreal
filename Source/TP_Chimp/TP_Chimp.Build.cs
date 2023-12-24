@@ -6,14 +6,26 @@ public class TP_Chimp : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
+        PublicIncludePaths.AddRange(new string[] {
+            "TP_Chimp"
+        });
+
         PublicDependencyModuleNames.AddRange(new string[] {
             "Core",
             "CoreUObject",
             "Engine",
             "InputCore",
-            "EnhancedInput"
+            "EnhancedInput",
+            "NavigationSystem",
+            "AIModule",
+            "Niagara",
+            "UMG",
+            "GameplayTags",
         });
 
-        PrivateDependencyModuleNames.AddRange(new string[] { });
+        PrivateDependencyModuleNames.AddRange(new string[] { 
+            "SlateCore",
+            "CommonUI"
+        });
     }
 }
