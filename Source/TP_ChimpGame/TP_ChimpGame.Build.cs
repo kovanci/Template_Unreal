@@ -25,7 +25,8 @@ public class TP_ChimpGame : ModuleRules
 
         PrivateDependencyModuleNames.AddRange(new string[] {
             "SlateCore",
-            "CommonUI"
+            "CommonUI",
+            "DeveloperSettings"
         });
     }
 }
