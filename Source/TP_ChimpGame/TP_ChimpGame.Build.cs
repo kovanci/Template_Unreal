@@ -10,6 +10,10 @@ public class TP_ChimpGame : ModuleRules
             "TP_ChimpGame"
         });
 
+        PrivateIncludePaths.AddRange(new string[] {
+
+        });
+
         PublicDependencyModuleNames.AddRange(new string[] {
             "Core",
             "CoreUObject",
