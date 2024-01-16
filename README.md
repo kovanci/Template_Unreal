@@ -9,17 +9,25 @@ Unreal Engine template project(C++) for prototyping. Some plugins have been deac
 - Put project folder in `EpicGames/UE_{Version}/Templates`.
 - Populate correct value for `UE5_DIR` in `vars.bat`.
 
-### 🔥 Build and Open Project
+### 🔥 Example .bat Usages
 - Supports default UE Command-Line Arguments.
+
+📌 Build and Open Editor
 
 ```
 .\build && .\editor
 ```
 
-or
+📌 Build and Open Editor (attach Log Console)
 
 ```
 .\build && .\editor -log
+```
+
+📌 Launch playable game instance without loading up the editor
+
+```
+.\editor -game -log -windowed -resx=1280 -resy=720
 ```
 
 [1]: https://www.unrealengine.com/en-US/download
