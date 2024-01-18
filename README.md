@@ -9,11 +9,16 @@ Unreal Engine template project(C++) for prototyping. Some plugins have been deac
 - [GameplayMessageRouter][4]
 
 ### 💿 Installation
-- Put project folder in `EpicGames/UE_{Version}/Templates`.
+- Put project folder in
+  ```
+  EpicGames/UE_{Version}/Templates
+  ```
+
 - Run submodule command in project folder.
   ```
   git submodule update --init
   ```
+
 - Populate correct value for `UE5_DIR` in `vars.bat`.
 
 ### 🔥 Example .bat Usages
