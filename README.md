@@ -4,35 +4,38 @@ Unreal Engine template project(C++) for prototyping. Some plugins have been deac
 
 [Recommended Video][2]
 
+### 🔨 Activated Plugins
+- [CommonUI](https://docs.unrealengine.com/5.3/en-US/common-ui-plugin-for-advanced-user-interfaces-in-unreal-engine/)
+- [GameplayMessageRouter](https://github.com/kovanci/GameplayMessageRouter)
 
 ### 💿 Installation
 - Put project folder in `EpicGames/UE_{Version}/Templates`.
-- Run submodule command in project folder
-```
-git submodule update --init
-```
+- Run submodule command in project folder.
+  ```
+  git submodule update --init
+  ```
 - Populate correct value for `UE5_DIR` in `vars.bat`.
 
 ### 🔥 Example .bat Usages
 - Supports default UE Command-Line Arguments.
 
-📌 Build and Open Editor
+- 🏷️ Build and Open Editor
 
-```
-.\build && .\editor
-```
+  ```
+  .\build && .\editor
+  ```
 
-📌 Build and Open Editor (attach Log Console)
+- 🏷️ Build and Open Editor (attach Log Console)
 
-```
-.\build && .\editor -log
-```
+  ```
+  .\build && .\editor -log
+  ```
 
-📌 Launch playable game instance without loading up the editor
+- 🏷️ Launch playable game instance without loading up the editor
 
-```
-.\editor -game -log -windowed -resx=1280 -resy=720
-```
+  ```
+  .\editor -game -log -windowed -resx=1280 -resy=720
+  ```
 
 [1]: https://www.unrealengine.com/en-US/download
 [2]: https://www.youtube.com/watch?v=94FvzO1HVzY
