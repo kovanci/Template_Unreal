@@ -18,19 +18,20 @@ public class TP_ChimpGame : ModuleRules
             "Core",
             "CoreUObject",
             "Engine",
-            "InputCore",
-            "EnhancedInput",
             "NavigationSystem",
             "AIModule",
             "Niagara",
-            "UMG",
-            "GameplayTags",
+            "GameplayTags"
         });
 
         PrivateDependencyModuleNames.AddRange(new string[] {
+            "InputCore",
+            "Slate",
             "SlateCore",
-            "CommonUI",
-            "DeveloperSettings"
+            "DeveloperSettings",
+            "EnhancedInput",
+            "UMG",
+            "CommonUI"
         });
     }
 }
