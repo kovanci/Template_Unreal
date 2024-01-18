@@ -31,7 +31,8 @@ public class TP_ChimpGame : ModuleRules
             "DeveloperSettings",
             "EnhancedInput",
             "UMG",
-            "CommonUI"
+            "CommonUI",
+            "GameplayMessageRuntime"
         });
     }
 }
