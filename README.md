@@ -5,8 +5,8 @@ Unreal Engine template project(C++) for prototyping. Some plugins have been deac
 [Recommended Video][2]
 
 ### 🔨 Activated Plugins
-- [CommonUI](https://docs.unrealengine.com/5.3/en-US/common-ui-plugin-for-advanced-user-interfaces-in-unreal-engine/)
-- [GameplayMessageRouter](https://github.com/kovanci/GameplayMessageRouter)
+- [CommonUI][3]
+- [GameplayMessageRouter][4]
 
 ### 💿 Installation
 - Put project folder in `EpicGames/UE_{Version}/Templates`.
@@ -39,3 +39,5 @@ Unreal Engine template project(C++) for prototyping. Some plugins have been deac
 
 [1]: https://www.unrealengine.com/en-US/download
 [2]: https://www.youtube.com/watch?v=94FvzO1HVzY
+[3]: https://docs.unrealengine.com/5.3/en-US/common-ui-plugin-for-advanced-user-interfaces-in-unreal-engine/
+[4]: https://github.com/kovanci/GameplayMessageRouter
