@@ -1,7 +1,7 @@
 # https://clangd.llvm.org/
 
-# Create Windows-VSCode Symlink:
-# "mklink compile_commands.json compileCommands_Project.json"
+# Create SymbolicLink in ".vscode" folder
+# PowerShell: New-Item -Path compile_commands.json -ItemType SymbolicLink -Value compileCommands_ProjectName.json
 
 CompileFlags:
   Add:
