@@ -12,9 +12,11 @@ CompileFlags:
 
 InlayHints:
   Enabled: No
+  BlockEnd: Yes
   Designators: Yes
   ParameterNames: Yes
   DeducedTypes: Yes
+  TypeNameLimit: 24
 
 Index:
   StandardLibrary: No
