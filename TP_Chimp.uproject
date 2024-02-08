@@ -272,9 +272,17 @@
 			"Name": "OpenImageDenoise",
 			"Enabled": false
 		},
+        {
+            "Name": "GameplayMessageRouter",
+            "Enabled": true
+        },
 		{
 			"Name": "CommonUI",
 			"Enabled": true
-		}
+		},
+        {
+            "Name": "AsyncMixin",
+            "Enabled": true
+        }
 	]
 }

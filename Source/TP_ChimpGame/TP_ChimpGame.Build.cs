@@ -21,7 +21,8 @@ public class TP_ChimpGame : ModuleRules
             "NavigationSystem",
             "AIModule",
             "Niagara",
-            "GameplayTags"
+            "GameplayTags",
+            "AsyncMixin"
         });
 
         PrivateDependencyModuleNames.AddRange(new string[] {

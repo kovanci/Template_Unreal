@@ -7,6 +7,7 @@ Unreal Engine template project(C++) for prototyping. Some plugins have been deac
 ### 🔨 Activated Plugins
 - [CommonUI][3]
 - [GameplayMessageRouter][4]
+- [AsyncMixin][5]
 
 ### 💿 Installation
 - Put project folder in
@@ -46,3 +47,4 @@ Unreal Engine template project(C++) for prototyping. Some plugins have been deac
 [2]: https://www.youtube.com/watch?v=94FvzO1HVzY
 [3]: https://docs.unrealengine.com/5.3/en-US/common-ui-plugin-for-advanced-user-interfaces-in-unreal-engine/
 [4]: https://github.com/kovanci/GameplayMessageRouter
+[5]: https://github.com/kovanci/AsyncMixin

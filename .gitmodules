@@ -1,3 +1,6 @@
 [submodule "Plugins/GameplayMessageRouter"]
 	path = Plugins/GameplayMessageRouter
 	url = https://github.com/kovanci/GameplayMessageRouter.git
+[submodule "Plugins/AsyncMixin"]
+	path = Plugins/AsyncMixin
+	url = https://github.com/kovanci/AsyncMixin.git
