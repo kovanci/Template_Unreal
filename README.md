@@ -20,7 +20,9 @@ Unreal Engine template project(C++) for prototyping. Some plugins have been deac
   git submodule update --init
   ```
 
-- Populate correct value for `UE5_DIR` in `vars.bat`.
+- Populate correct values for 
+  - `UE5_DIR` in `vars.bat`
+  - `UE5_SOURCE` in `.sublime-project`
 
 ### 🔥 Example .bat Usages
 - Supports default UE Command-Line Arguments.
