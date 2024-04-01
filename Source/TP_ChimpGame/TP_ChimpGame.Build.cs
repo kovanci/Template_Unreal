@@ -22,6 +22,7 @@ public class TP_ChimpGame : ModuleRules
             "AIModule",
             "Niagara",
             "GameplayTags",
+            "GameplayAbilities",
             "AsyncMixin"
         });
 
