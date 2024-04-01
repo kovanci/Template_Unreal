@@ -4,6 +4,9 @@
 # Rider
 .idea/
 
+# Sublime Text
+*.sublime-workspace
+
 # Compiled Object files
 *.slo
 *.lo

@@ -1,0 +1,42 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": [
+				".github",
+				".idea",
+				".vs",
+				"Binaries",
+				"Content",
+				"DerivedDataCache",
+				"Intermediate",
+				"Saved"
+			],
+			"file_exclude_patterns": [
+				"*.sln",
+			],
+		},
+		{
+			"path": "C:/EpicGames/UE_5.3/Engine/Source/Runtime"
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Build",
+			"working_dir": "${project_path}",
+			"cmd": ["build.bat"],
+			"variants": [
+				{
+					"name": "Editor",
+					"cmd": ["editor.bat"],
+				},
+				{
+					"name": "Game",
+					"cmd": ["editor.bat", "-game", "-log", "-windowed", "-resx=1280", "-resy=720"]
+				},
+			]
+		}
+	]
+}
