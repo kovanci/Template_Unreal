@@ -7,7 +7,7 @@ Unreal Engine template project(C++) for prototyping. Some plugins have been deac
 ### 🔨 Activated Plugins
 - [CommonUI][3]
 - [GameplayMessageRouter][4]
-- [GameplayAbilities][5]
+- [GameplayAbilitySystem][5]
 - [AsyncMixin][6]
 
 ### 💿 Installation
