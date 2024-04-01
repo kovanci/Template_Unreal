@@ -35,5 +35,7 @@ public class TP_ChimpGame : ModuleRules
             "CommonUI",
             "GameplayMessageRuntime"
         });
+
+        // bUseUnity = false;
     }
 }
