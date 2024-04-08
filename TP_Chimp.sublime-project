@@ -13,7 +13,8 @@
 				"DerivedDataCache",
 				"LocalDerivedDataCache",
 				"Intermediate",
-				"Saved"
+				"Saved",
+				"PackagedGame"
 			],
 			"file_exclude_patterns": [
 				"*.sln",
