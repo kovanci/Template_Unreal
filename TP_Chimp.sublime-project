@@ -20,6 +20,10 @@
 		{
 			"name": "UE5_Source",
 			"path": "C:/EpicGames/UE_5.3/Engine/Source/Runtime",
+		},
+		{
+			"name": "UE5_Programs",
+			"path": "C:/EpicGames/UE_5.3/Engine/Source/Programs"
 		}
 	],
 	"build_systems":
