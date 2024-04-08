@@ -30,6 +30,10 @@
 			"path": "C:/EpicGames/UE_5.3/Engine/Source/Programs/AutomationTool"
 		},
 		{
+			"name": "UE5_Shared",
+			"path": "C:/EpicGames/UE_5.3/Engine/Source/Programs/Shared"
+		},
+		{
 			"name": "UE5_BuildTool",
 			"path": "C:/EpicGames/UE_5.3/Engine/Source/Programs/UnrealBuildTool"
 		}
