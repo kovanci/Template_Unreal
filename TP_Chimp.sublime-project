@@ -10,6 +10,7 @@
 				"Binaries",
 				"Content",
 				"DerivedDataCache",
+				"LocalDerivedDataCache",
 				"Intermediate",
 				"Saved"
 			],
