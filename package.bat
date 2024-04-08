@@ -26,4 +26,4 @@ BuildCookRun ^
 -stage ^
 -package ^
 -archive ^
--archivedirectory="%PROJECT_DIR%/PackagedGame"
+-archivedirectory="%PROJECT_DIR%\PackagedGame"

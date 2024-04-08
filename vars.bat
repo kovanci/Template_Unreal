@@ -1,5 +1,7 @@
 @echo off
 
+REM ## About UAT: https://github.com/botman99/ue4-unreal-automation-tool
+
 set ROOTDIR=%~dp0
 set ROOTDIR=%ROOTDIR:~0,-1%
 
