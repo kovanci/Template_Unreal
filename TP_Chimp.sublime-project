@@ -25,8 +25,12 @@
 			"path": "C:/EpicGames/UE_5.3/Engine/Source/Runtime",
 		},
 		{
-			"name": "UE5_Programs",
-			"path": "C:/EpicGames/UE_5.3/Engine/Source/Programs"
+			"name": "UE5_AutomationTool",
+			"path": "C:/EpicGames/UE_5.3/Engine/Source/Programs/AutomationTool"
+		},
+		{
+			"name": "UE5_BuildTool",
+			"path": "C:/EpicGames/UE_5.3/Engine/Source/Programs/UnrealBuildTool"
 		}
 	],
 	"build_systems":
