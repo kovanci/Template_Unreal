@@ -1,48 +1,53 @@
-[![](https://img.shields.io/badge/UE%20Version:-5.3-orange?logo=unrealengine)][1]
+[![](https://img.shields.io/badge/UE%20Version:-5.4-orange?logo=unrealengine)][1]
 
 Unreal Engine template project(C++) for prototyping. Some plugins have been deactivated.
 
 [Recommended Video][2]
 
 ### 🔨 Activated Plugins
+
 - [CommonUI][3]
 - [GameplayMessageRouter][4]
 - [GameplayAbilitySystem][5]
 - [AsyncMixin][6]
 
 ### 💿 Installation
+
 - Put project folder in
-  ```
+
+  ```powershell
   EpicGames/UE_{Version}/Templates
   ```
 
 - Run submodule command in project folder.
-  ```
+
+  ```powershell
   git submodule update --init
   ```
 
-- Populate correct values for 
+- Populate correct values for
   - `UE5_DIR` in `vars.bat`
   - `UE5_SOURCE` in `.sublime-project`
 
 ### 🔥 Example .bat Usages
+
 - Supports default UE Command-Line Arguments.
 
 - 🏷️ Build and Open Editor
 
-  ```
+  ```powershell
   .\build && .\editor
   ```
 
 - 🏷️ Build and Open Editor (attach Log Console)
 
-  ```
+  ```powershell
   .\build && .\editor -log
   ```
 
 - 🏷️ Launch playable game instance without loading up the editor
 
-  ```
+  ```powershell
   .\editor -game -log -windowed -resx=1280 -resy=720
   ```
 
