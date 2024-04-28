@@ -4,9 +4,9 @@
 		{
 			"path": ".",
 			"folder_exclude_patterns": [
-				".github",
 				".idea",
 				".vs",
+				".vscode",
 				"Build",
 				"Binaries",
 				"Content",
@@ -23,19 +23,19 @@
 		},
 		{
 			"name": "UE5_Source",
-			"path": "C:/EpicGames/UE_5.3/Engine/Source/Runtime",
+			"path": "C:/EpicGames/UE_5.4/Engine/Source/Runtime",
 		},
 		{
 			"name": "UE5_AutomationTool",
-			"path": "C:/EpicGames/UE_5.3/Engine/Source/Programs/AutomationTool"
+			"path": "C:/EpicGames/UE_5.4/Engine/Source/Programs/AutomationTool"
 		},
 		{
 			"name": "UE5_Shared",
-			"path": "C:/EpicGames/UE_5.3/Engine/Source/Programs/Shared"
+			"path": "C:/EpicGames/UE_5.4/Engine/Source/Programs/Shared"
 		},
 		{
 			"name": "UE5_BuildTool",
-			"path": "C:/EpicGames/UE_5.3/Engine/Source/Programs/UnrealBuildTool"
+			"path": "C:/EpicGames/UE_5.4/Engine/Source/Programs/UnrealBuildTool"
 		}
 	],
 	"build_systems":
