@@ -59,12 +59,11 @@
 			"type": "shell",
 			"command": "C:/EpicGames/UE_5.4/Engine/Build/BatchFiles/Build.bat",
 			"args": [
-				"-projectfiles",
-				"-CurrentPlatform",
+				"-mode=GenerateProjectFiles",
 				"-project=\"${workspaceFolder}/TP_Chimp.uproject\"",
 				"-game",
-				"-engine",
-				"-dotnet"
+				"-rocket",
+				"-progress",
 			],
 			"group": "build",
 			"presentation": {
