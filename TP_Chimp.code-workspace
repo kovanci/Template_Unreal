@@ -34,6 +34,7 @@
             "**/PackagedGame": true,
             "**/.idea": true,
             "**/.vs": true,
+            "**/.vsconfig": true,
             "**.sublime-project": true,
             "**.sublime-workspace": true,
             "**.sln": true,
