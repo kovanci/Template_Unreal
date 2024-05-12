@@ -60,7 +60,6 @@
 			"command": "C:/EpicGames/UE_5.4/Engine/Build/BatchFiles/Build.bat",
 			"args": [
 				"-projectfiles",
-				"-2022",
 				"-CurrentPlatform",
 				"-project=\"${workspaceFolder}/TP_Chimp.uproject\"",
 				"-game",
