@@ -4,19 +4,13 @@
 # PowerShell: New-Item -Path compile_commands.json -ItemType SymbolicLink -Value compileCommands_ProjectName.json
 
 CompileFlags:
-  Add:
-    - "/std:c++20"
-    - "/TP"
-    - "-ferror-limit=0"
+  Add: [-ferror-limit=0]
   CompilationDatabase: .vscode
 
 InlayHints:
-  Enabled: No
+  Enabled: Yes
   BlockEnd: Yes
   Designators: Yes
   ParameterNames: Yes
   DeducedTypes: Yes
   TypeNameLimit: 24
-
-Index:
-  StandardLibrary: No
