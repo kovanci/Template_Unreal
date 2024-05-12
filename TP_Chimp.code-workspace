@@ -7,6 +7,10 @@
             "name": "UE",
             "path": "C:/EpicGames/UE_5.4/Engine"
         },
+        {
+            "name": "Configuration",
+            "path": "C:\\Users\\kovan\\AppData\\Roaming\\Unreal Engine\\UnrealBuildTool"
+        }
     ],
     "settings": {
         "npm.autoDetect": "off",

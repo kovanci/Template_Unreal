@@ -61,6 +61,7 @@
 			"args": [
 				"-projectfiles",
 				"-2022",
+				"-CurrentPlatform",
 				"-project=\"${workspaceFolder}/TP_Chimp.uproject\"",
 				"-game",
 				"-engine",
