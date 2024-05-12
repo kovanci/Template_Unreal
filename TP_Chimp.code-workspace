@@ -1,0 +1,80 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "name": "UE",
+            "path": "C:/EpicGames/UE_5.4/Engine"
+        },
+    ],
+    "settings": {
+        "npm.autoDetect": "off",
+
+        // ---- file assocs -----
+        "files.associations": {
+            "*.clangd": "yaml",
+            "*.uproject": "json",
+            "*.uplugin": "json",
+        },
+
+        // ---- excludes -----
+        "files.exclude": {
+            "**/Build": true,
+            "**/Binaries": true,
+            "**/Content": true,
+            "**/DerivedDataCache": true,
+            "**/LocalDerivedDataCache": true,
+            "**/Intermediate": true,
+            "**/Saved": true,
+            "**/PackagedGame": true,
+            "**/.idea": true,
+            "**/.vs": true,
+            "**.sublime-project": true,
+            "**.sublime-workspace": true,
+            "**.sln": true,
+        },
+        "files.watcherExclude": {
+			"**/Intermediate/*": true,
+			".vs/*": true,
+			".cache/*": true,
+			".vscode/*": true,
+			"**/*.dll": true,
+			"**/*.ilk": true,
+			"**/*.pdb": true,
+			"**/*.exe": true,
+			"**/*.uasset": true
+		},
+        "search.exclude": {
+			"**/Intermediate/*": true,
+			".vs/*": true,
+			".cache/*": true,
+			".vscode/*": true,
+			"**/*.dll": true,
+			"**/*.ilk": true,
+			"**/*.pdb": true,
+			"**/*.exe": true,
+			"**/*.uasset": true
+		},
+
+        // ---- clangd -----
+        "clangd.arguments": [
+            "--header-insertion=never",
+            "--header-insertion-decorators=true",
+            "--limit-references=100", // default: 1000
+            "--limit-results=100", // default: 100, (affects max intellisense results, for example std::string foo; after typing "foo.")
+            "--all-scopes-completion=false",
+            "--pch-storage=memory", // if disk specified, .pch files can takes too much disk space,
+            "--background-index",
+            "--background-index-priority=normal",
+            "--clang-tidy=true",
+            "--completion-style=detailed", // show all function overloads. Otherwise it combines like func(...)
+            "--function-arg-placeholders=false", // when disabled, completions contain only parentheses for function calls. When enabled, completions also contain placeholders for method parameters
+            "--rename-file-limit=0",
+            //"--ranking-model=decision_forest",
+            //"-j=6",
+            //"--pretty",
+            //"--log=error"
+		]
+    }
+}

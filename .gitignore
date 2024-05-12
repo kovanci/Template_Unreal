@@ -4,10 +4,10 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-*.code-workspace
 
 # Visual Studio 2015 user specific files
 .vs/
+.vsconfig
 
 # Rider
 .idea/
