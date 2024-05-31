@@ -19,6 +19,7 @@
 			"file_exclude_patterns": [
 				"*.sln",
 				"*.vsconfig",
+				"*.code-workspace",
 			],
 		},
 		{
